@@ -192,12 +192,7 @@ public class MackarooDataValidation {
 		Collections.sort(cities);
 		Collections.sort(countries);
 
-		// int count =0;
-		// for (int i = 0; i < cities.size(); i++) {
-		// if(cities.get(i).length()==3) {
-		// count ++;
-		// }
-		// }
+
 		System.out.println(getShortedList(cities));
 
 		System.out.println(getLongestList(cities));
